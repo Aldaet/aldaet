@@ -1,0 +1,80 @@
+html {
+    width: calc(100vw);
+    overflow-x: hidden;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.image-viewer {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2c2f34;
+}
+
+.image-viewer .image-viewer-main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-viewer .image-viewer-main img {
+    object-fit: contain;
+    max-height: calc(90vh - 48px);
+    max-width: 90vw;
+}
+
+.image-viewer-options {
+    display: flex;
+	padding: 15px 15px 5px 15px;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.image-viewer .image-viewer-main img {
+    box-shadow: 0px 0px 94px -16px rgba(0, 0, 0, 0.75);
+}
+
+.image-description {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.image-item {
+    cursor: pointer;
+}
+
+.jumbotron {
+    position: relative;
+    word-wrap: break-word;
+}
+
+.progress-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.progress {
+    height: 3rem;
+    background-color: ghostwhite;
+    border: 1px solid #dee2e6;
+    font-size: 1.25rem;
+}
+
+.progress-bar {
+    text-shadow: black 1px 1px 4px;
+}
+
+body {
+    margin-bottom: 40px;
+}
