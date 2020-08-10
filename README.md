@@ -1,16 +1,18 @@
-### Hi there 👋
+# https://x0a.github.io/thumbdata3-viewer/
 
-<!--
-**Aldaet/aldaet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Fully client-side HTML5 thumbdata-3 viewer (and general JPEG extractor)
 
-Here are some ideas to get you started:
+# Development
+## Getting started
+```bash
+git clone https://github.com/x0a/thumbdata3-viewer.git
+npm install -g webpack
+cd thumbdata3-viewer
+npm install
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Build
+For active development run `npm run watch`, which will start webpack in watch mode.
+Then run `npx serve ./dist` and open `http://localhost:5000`, refreshing as needed. You can also open `./dist/index.html` directly in your browser and refresh as needed.
+
+For a final build, run `npm run build`. Files in `./dist` will be ready for distribution
