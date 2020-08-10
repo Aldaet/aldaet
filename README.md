@@ -1,13 +1,13 @@
-# https://x0a.github.io/thumbdata3-viewer/
+# https://github.com/Aldaet/aldaet/
 
 Fully client-side HTML5 thumbdata-3 viewer (and general JPEG extractor)
 
 # Development
 ## Getting started
 ```bash
-git clone https://github.com/x0a/thumbdata3-viewer.git
+git clone https://github.com/Aldaet/aldaet
 npm install -g webpack
-cd thumbdata3-viewer
+cd aldaet
 npm install
 ```
 
